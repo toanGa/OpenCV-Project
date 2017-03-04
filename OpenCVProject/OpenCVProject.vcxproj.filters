@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ball_detect">
+      <UniqueIdentifier>{2b106878-5c61-42a1-a575-e3cda86d9cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\detectFaceAndEyes">
+      <UniqueIdentifier>{912be1d8-4292-4705-8e45-1bf1d1e2581f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\example">
+      <UniqueIdentifier>{7bd0745c-99ab-4010-9be6-207e699d74f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\detect">
+      <UniqueIdentifier>{f103e3b0-a5d0-449d-8e40-fa1bebc6f95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\detect\detectMultiMan">
+      <UniqueIdentifier>{464071f7-ea21-451f-a155-8766b3eefde2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blob.cpp">
+      <Filter>Header Files\detect\detectMultiMan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball_detect.h">
+      <Filter>Header Files\ball_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="face_and_eyes_detect.h">
+      <Filter>Header Files\detectFaceAndEyes</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTwoImageExample.h">
+      <Filter>Header Files\example</Filter>
+    </ClInclude>
+    <ClInclude Include="canBangHistogramExam.h">
+      <Filter>Header Files\example</Filter>
+    </ClInclude>
+    <ClInclude Include="Canny_TimBienAnhExam.h">
+      <Filter>Header Files\example</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectColorExam.h">
+      <Filter>Header Files\example</Filter>
+    </ClInclude>
+    <ClInclude Include="histogramExam.h">
+      <Filter>Header Files\example</Filter>
+    </ClInclude>
+    <ClInclude Include="myHistogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NhiPhanNguongDong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenVideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenWebcome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blob.h">
+      <Filter>Header Files\detect\detectMultiMan</Filter>
+    </ClInclude>
+    <ClInclude Include="main_multiman_detect.h">
+      <Filter>Header Files\detect\detectMultiMan</Filter>
+    </ClInclude>
+    <ClInclude Include="multiman_detect.h">
+      <Filter>Header Files\detect\detectMultiMan</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
